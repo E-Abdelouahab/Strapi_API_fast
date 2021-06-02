@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/journal-youcodes",
+      "handler": "journal-youcode.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/journal-youcodes/count",
+      "handler": "journal-youcode.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/journal-youcodes/:id",
+      "handler": "journal-youcode.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/journal-youcodes",
+      "handler": "journal-youcode.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/journal-youcodes/:id",
+      "handler": "journal-youcode.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/journal-youcodes/:id",
+      "handler": "journal-youcode.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

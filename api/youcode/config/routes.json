@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/youcode",
+      "handler": "youcode.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/youcode",
+      "handler": "youcode.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/youcode",
+      "handler": "youcode.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "journal_youcodes",
+  "info": {
+    "name": "journal youcode",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "DESCRIPTION": {
+      "type": "richtext",
+      "required": true
+    },
+    "IMAGE": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "categories": {
+      "via": "journal_youcodes",
+      "collection": "category"
+    },
+    "jours_ecole": {
+      "type": "component",
+      "repeatable": true,
+      "component": "staff.hours-of-operation",
+      "required": true
+    }
+  }
+}

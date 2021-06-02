@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_staff_hours_of_operations",
+  "info": {
+    "name": "hours_of_operation",
+    "icon": "calendar-check"
+  },
+  "options": {},
+  "attributes": {
+    "ouvert_ecole": {
+      "type": "string",
+      "required": true
+    },
+    "ferme_ecole": {
+      "type": "string",
+      "required": true
+    },
+    "intervalle_ecole": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
