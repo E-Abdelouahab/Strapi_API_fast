@@ -1,8 +1,8 @@
-# Strapi application
+ # Créer une API Rest pour la gestion de contenu
+ 
+ # Strapi application
 
 A quick description of your strapi application
-
- # Créer une API Rest pour la gestion de contenu
 
 
 # Contexte du projet
